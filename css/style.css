@@ -1,0 +1,734 @@
+#paginaIndex {
+    background-image: url("../assets/img/43F5AE91-DF97-47EA-86D6-CF9F307F2895.jpg");
+    background-repeat: no-repeat;
+    overflow: visible;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    margin: 0em;
+    text-align: right;
+    position: sticky;
+    top: 0em;
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fuenteRegular {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fuenteLight {
+    font-family: 'Roboto', sans-serif;
+    font-style: light;
+    font-weight: 100;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    font-size: 150%;
+}
+
+#menu li {
+    padding-inline: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu a {
+    color: #337386;
+}
+
+#index {
+    color: white;
+    text-align: center;
+    margin: 3em 0em;
+}
+
+#christianCorona {
+    font-size: 500%;
+    padding-top: 18em;
+}
+
+#modelo {
+    font-size: 250%;
+}
+
+#rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+#rrss svg {
+    width: 2em;
+    height: 2em;
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 1em;
+}
+
+.paginas {
+    background-color: black;
+}
+
+.tituloPaginas {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+#about {
+    background-image: url(../assets/img/about\ reducida.jpg);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 600px;
+    background-size: contain;
+    color: white;
+    padding-top: 1em;
+    padding-left: 3em;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#about h2 {
+    font-size: 2em;
+    line-height: 2.5em;
+    padding-bottom: 1em;
+}
+
+#about h3 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+    text-align: left;
+    padding: 0.5em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.parrafo {
+    background-color: white;
+    color: #121212;
+    font-size: 1em;
+    line-height: 2em;
+    border-radius: 1em;
+}
+
+#bio p {
+    width: 50%;
+}
+
+#bio img {
+    width: 365px;
+    height: 450px;
+    border-radius: 1em;
+}
+
+#trans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 85%;
+    height: 50%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+#trans p {
+    width: 40%;
+}
+
+#trans img {
+    width: 500px;
+    height: 800px;
+    border-radius: 1em;
+}
+
+#aboutCloser {
+    width: 80%;
+    height: 50%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+.portfolio {
+    padding-bottom: 2em;
+}
+
+.portfolio h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#galeriaModelo {
+    display: grid;
+}
+
+#galeriaFotografo {
+    display: grid;
+}
+
+.proyectos {
+    background-color: white;
+    border-radius: 1em;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    color: #121212;
+    overflow: hidden;
+}
+
+.proyectos-grid {
+    display: grid;
+}
+
+#elReino {
+    width: 80%;
+    height: 500px;
+}
+
+.proyectosTitulo {
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    width: 50%;
+}
+
+.proyectosTexto {
+    padding-left: 2em;
+    font-size: 1em;
+    width: 90%;
+}
+
+#elReino img {
+    width: 300px;
+    height: 300px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* padding-left: 11em; */
+}
+
+#sprite {
+    height: 600px;
+}
+
+#sprite img {
+    width: 400px;
+    height: 400px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 8em;
+}
+
+#spriteVideo {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.publicidad1 {
+    position: sticky;
+    top: 11.5em;
+}
+
+.publicidad2 {
+    position: sticky;
+    top: 13em;
+}
+
+#paginaContacto {
+    background-image: url(../assets/img/IMG_9744.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formulario {
+    text-align: center;
+    line-height: 2em;
+    color: white;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .paginas {
+        margin: 0;
+    }
+    #galeriaModelo {
+        grid-template-columns: 412px;
+    }
+    .modeloImg1 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg2 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg3 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg4 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg5 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg6 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg7 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg8 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg9 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg10 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg11 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .modeloImg12 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+
+    #galeriaFotografo {
+        grid-template-columns: 412px;
+    }
+    .fotografoImg1 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg2 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg3 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg4 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg5 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg6 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg7 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg8 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg9 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg10 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg11 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+    .fotografoImg12 {
+        width: 100%;
+        grid-column: 1/2;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    .paginas {
+        margin: 0;
+    }
+    #galeriaModelo {
+        grid-template-columns: repeat (2, 560px);
+        grid-template-rows: repeat (10, 400px);
+    }
+    .modeloImg1 {
+        width: 100%;
+        height: 800px;
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .modeloImg2 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .modeloImg3 {
+        width: 100%;
+        height: 400px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .modeloImg4 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .modeloImg5 {
+        width: 100%;
+        height: 800px;
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+    .modeloImg6 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+    .modeloImg7 {
+        width: 100%;
+        height: 400px;
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+    .modeloImg8 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+    .modeloImg9 {
+        width: 100%;
+        height: 800px;
+        grid-column: 1/2;
+        grid-row: 7/9;
+    }
+    .modeloImg10 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+    .modeloImg11 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 10/11;
+    }
+    .modeloImg12 {
+        width: 100%;
+        height: 800px;
+        grid-column: 2/3;
+        grid-row: 8/10;
+    }
+
+    #galeriaFotografo {
+        grid-template-columns: repeat (2, 560px);
+        grid-template-rows: repeat (10, 400px);
+    }
+    .fotografoImg1 {
+        width: 100%;
+        height: 800px;
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .fotografoImg2 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .fotografoImg3 {
+        width: 100%;
+        height: 400px;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .fotografoImg4 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .fotografoImg5 {
+        width: 100%;
+        height: 800px;
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+    .fotografoImg6 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 5/6;
+    }
+    .fotografoImg7 {
+        width: 100%;
+        height: 400px;
+        grid-column: 2/3;
+        grid-row: 7/8;
+    }
+    .fotografoImg8 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 6/7;
+    }
+    .fotografoImg9 {
+        width: 100%;
+        height: 800px;
+        grid-column: 1/2;
+        grid-row: 7/9;
+    }
+    .fotografoImg10 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/2;
+        grid-row: 9/10;
+    }
+    .fotografoImg11 {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/3;
+        grid-row: 10/11;
+    }
+    .fotografoImg12 {
+        width: 100%;
+        height: 800px;
+        grid-column: 2/3;
+        grid-row: 8/10;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #galeriaModelo {
+        overflow-x: hidden;
+        grid-template-columns: repeat (4, 25%);
+        grid-template-rows: repeat (5, 20%);
+    }
+    .modeloImg1 {
+        width: 100%;
+        height: 500px;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .modeloImg2 {
+        width: 100%;
+        height: 250px;
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+    .modeloImg3 {
+        width: 100%;
+        height: 250px;
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .modeloImg4 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .modeloImg5 {
+        width: 100%;
+        height: 500px;
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    .modeloImg6 {
+        width: 100%;
+        height: 250px;
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    .modeloImg7 {
+        width: 100%;
+        height: 250px;
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .modeloImg8 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .modeloImg9 {
+        width: 100%;
+        height: 500px;
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+    .modeloImg10 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .modeloImg11 {
+        width: 100%;
+        height: 250px;
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    .modeloImg12 {
+        width: 100%;
+        height: 500px;
+        grid-column: 4/5;
+        grid-row: 4/6;
+    }
+
+    #galeriaFotografo {
+        overflow-x: hidden;
+        grid-template-columns: repeat (4, 25%);
+        grid-template-rows: repeat (5, 20%);
+    }
+    .fotografoImg1 {
+        width: 100%;
+        height: 500px;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .fotografoImg2 {
+        width: 100%;
+        height: 250px;
+        grid-column: 2/4;
+        grid-row: 1/2;
+    }
+    .fotografoImg3 {
+        width: 100%;
+        height: 250px;
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    .fotografoImg4 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .fotografoImg5 {
+        width: 100%;
+        height: 500px;
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    .fotografoImg6 {
+        width: 100%;
+        height: 250px;
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    .fotografoImg7 {
+        width: 100%;
+        height: 250px;
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+    .fotografoImg8 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .fotografoImg9 {
+        width: 100%;
+        height: 500px;
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+    .fotografoImg10 {
+        width: 100%;
+        height: 250px;
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .fotografoImg11 {
+        width: 100%;
+        height: 250px;
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    .fotografoImg12 {
+        width: 100%;
+        height: 500px;
+        grid-column: 4/5;
+        grid-row: 4/6;
+    }
+    .proyectos-grid {
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 550px 600px 320px;
+    }
+    .publicidad1 {
+        width: 100%;
+        grid-column: 1/2;
+        grid-row: 1/4;
+    }
+    #elReino {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #sprite {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #spriteVideo {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .publicidad2 {
+        width: 100%;
+        grid-column: 3/4;
+        grid-row: 1/4;
+    }
+}
