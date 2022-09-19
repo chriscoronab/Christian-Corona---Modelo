@@ -511,9 +511,8 @@ a {
     #about {
         background-image: url(../assets/img/about\ reducida.jpg);
         width: 95%;
-        height: 600px;
         padding: 1em 0em 0em 3em;
-        margin: 0 auto;
+        margin: 0 auto 2em auto;
     }
     #about h2 {
         font-size: 2em;
