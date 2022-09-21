@@ -703,7 +703,7 @@ a {
     }
     .publicidad1 {
         position: sticky;
-        top: 11.5em;
+        top: 12em;
         grid-column: 1/2;
         grid-row: 1/4;
     }
