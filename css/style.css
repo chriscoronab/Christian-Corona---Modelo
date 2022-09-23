@@ -709,7 +709,7 @@ a {
     }
     .publicidad1 {
         position: sticky;
-        top: 12em;
+        top: 13em;
         grid-column: 1/2;
         grid-row: 1/4;
     }
