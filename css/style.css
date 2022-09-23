@@ -9,7 +9,7 @@ header {
     margin: 0em;
     text-align: right;
     position: sticky;
-    top: 0em;
+    top: 0;
     background-color: white;
 }
 header nav {
@@ -33,6 +33,9 @@ header nav {
     align-items: center;
     list-style-type: none;
 }
+#menu li:hover {
+    transform: scale(1.2, 1.2);
+}
 a {
     text-decoration: none;
 }
@@ -47,6 +50,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+#rrss svg:hover {
+    transform: scale(1.2, 1.2);
 }
 #copyright {
     color: white;
@@ -139,11 +145,11 @@ a {
     #menu li {
         padding-inline: 0.5em;
     }
-    #christianCorona {
+    #index h1 {
         font-size: 200%;
         padding-top: 9em;
     }
-    #modelo {
+    #index h2 {
         font-size: 100%;
     }
     #rrss svg {
@@ -255,11 +261,11 @@ a {
     #menu li {
         padding-inline: 0.5em;
     }
-    #christianCorona {
+    #index h1 {
         font-size: 350%;
         padding-top: 12em;
     }
-    #modelo {
+    #index h2 {
         font-size: 175%;
     }
     #rrss svg {
@@ -487,13 +493,13 @@ a {
         padding-inline: 2.5em;
     }
     #index {
-        margin: 3em 0em;
+        margin: 3em 0;
     }
-    #christianCorona {
+    #index h1 {
         font-size: 500%;
         padding-top: 18em;
     }
-    #modelo {
+    #index h2 {
         font-size: 250%;
     }
     #rrss svg {
@@ -511,7 +517,7 @@ a {
     #about {
         background-image: url(../assets/img/about\ reducida.jpg);
         width: 95%;
-        padding: 1em 0em 0em 3em;
+        padding: 1em 0 0 3em;
         margin: 0 auto 2em auto;
     }
     #about h2 {

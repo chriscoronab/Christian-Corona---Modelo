@@ -8,6 +8,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
         <title>Christian Corona | Proyectos</title>
     </head>
@@ -25,8 +26,8 @@
     <main class="fuenteRegular">
         <h1 class="tituloPaginas">Proyectos</h1>
     <section class="proyectos-grid">
-    <img src="../assets/img/publicidad.jpg" alt="publicidad1" class="publicidad1">
-    <article id="elReino" class="proyectos">
+    <img src="../assets/img/publicidad1.jpg" alt="publicidad1" class="publicidad1">
+    <article id="elReino" class="proyectos" data-aos="fade-up">
         <img src="../assets/img/El-Reino-Temporada-2-Fecha-De-Estreno-Chino-Darin.jpg" alt="elReinoImg">
         <h2 class="proyectosTitulo">El Reino II (próximamente)</h2>
         <p class="proyectosTexto"><strong>Descripción:</strong> Aparición como extra en la serie El Reino II.
@@ -35,7 +36,7 @@
             <strong>Fecha:</strong> A estrenar.
         </p>
     </article>
-    <article id="sprite" class="proyectos">
+    <article id="sprite" class="proyectos" data-aos="fade-up">
         <img src="../assets/img/IMG_6598.jpg" alt="spriteImg">
         <h2 class="proyectosTitulo">Orgullo - Sprite</h2>
         <p class="proyectosTexto"><strong>Descripción:</strong> Aparición como extra en la publicidad de Sprite sobre el Orgullo LGBT+.
@@ -70,5 +71,9 @@
         </nav>
         <p id="copyright" class="fuenteLight">© 2022 Christian Corona</p>
     </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
