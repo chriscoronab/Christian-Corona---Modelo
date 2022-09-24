@@ -314,122 +314,62 @@ a {
     .galeria img {
         width: 100%;
     }
-    .modeloImg1 {
+    .img1 {
         height: 800px;
         grid-column: 1/2;
         grid-row: 2/4;
     }
-    .modeloImg2 {
+    .img2 {
         height: 400px;
         grid-column: 1/3;
         grid-row: 1/2;
     }
-    .modeloImg3 {
+    .img3 {
         height: 400px;
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    .modeloImg4 {
+    .img4 {
         height: 400px;
         grid-column: 1/2;
         grid-row: 4/5;
     }
-    .modeloImg5 {
+    .img5 {
         height: 800px;
         grid-column: 2/3;
         grid-row: 3/5;
     }
-    .modeloImg6 {
+    .img6 {
         height: 400px;
         grid-column: 1/3;
         grid-row: 5/6;
     }
-    .modeloImg7 {
+    .img7 {
         height: 400px;
         grid-column: 2/3;
         grid-row: 7/8;
     }
-    .modeloImg8 {
+    .img8 {
         height: 400px;
         grid-column: 1/3;
         grid-row: 6/7;
     }
-    .modeloImg9 {
+    .img9 {
         height: 800px;
         grid-column: 1/2;
         grid-row: 7/9;
     }
-    .modeloImg10 {
+    .img10 {
         height: 400px;
         grid-column: 1/2;
         grid-row: 9/10;
     }
-    .modeloImg11 {
+    .img11 {
         height: 400px;
         grid-column: 1/3;
         grid-row: 10/11;
     }
-    .modeloImg12 {
-        height: 800px;
-        grid-column: 2/3;
-        grid-row: 8/10;
-    }
-    .fotografoImg1 {
-        height: 800px;
-        grid-column: 1/2;
-        grid-row: 2/4;
-    }
-    .fotografoImg2 {
-        height: 400px;
-        grid-column: 1/3;
-        grid-row: 1/2;
-    }
-    .fotografoImg3 {
-        height: 400px;
-        grid-column: 2/3;
-        grid-row: 2/3;
-    }
-    .fotografoImg4 {
-        height: 400px;
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-    .fotografoImg5 {
-        height: 800px;
-        grid-column: 2/3;
-        grid-row: 3/5;
-    }
-    .fotografoImg6 {
-        height: 400px;
-        grid-column: 1/3;
-        grid-row: 5/6;
-    }
-    .fotografoImg7 {
-        height: 400px;
-        grid-column: 2/3;
-        grid-row: 7/8;
-    }
-    .fotografoImg8 {
-        height: 400px;
-        grid-column: 1/3;
-        grid-row: 6/7;
-    }
-    .fotografoImg9 {
-        height: 800px;
-        grid-column: 1/2;
-        grid-row: 7/9;
-    }
-    .fotografoImg10 {
-        height: 400px;
-        grid-column: 1/2;
-        grid-row: 9/10;
-    }
-    .fotografoImg11 {
-        height: 400px;
-        grid-column: 1/3;
-        grid-row: 10/11;
-    }
-    .fotografoImg12 {
+    .img12 {
         height: 800px;
         grid-column: 2/3;
         grid-row: 8/10;
@@ -557,122 +497,62 @@ a {
     .galeria img {
         width: 100%;
     }
-    .modeloImg1 {
+    .img1 {
         height: 500px;
         grid-column: 1/2;
         grid-row: 1/3;
     }
-    .modeloImg2 {
+    .img2 {
         height: 250px;
         grid-column: 2/4;
         grid-row: 1/2;
     }
-    .modeloImg3 {
+    .img3 {
         height: 250px;
         grid-column: 4/5;
         grid-row: 1/2;
     }
-    .modeloImg4 {
+    .img4 {
         height: 250px;
         grid-column: 1/2;
         grid-row: 3/4;
     }
-    .modeloImg5 {
+    .img5 {
         height: 500px;
         grid-column: 2/3;
         grid-row: 2/4;
     }
-    .modeloImg6 {
+    .img6 {
         height: 250px;
         grid-column: 3/5;
         grid-row: 2/3;
     }
-    .modeloImg7 {
+    .img7 {
         height: 250px;
         grid-column: 4/5;
         grid-row: 3/4;
     }
-    .modeloImg8 {
+    .img8 {
         height: 250px;
         grid-column: 1/3;
         grid-row: 4/5;
     }
-    .modeloImg9 {
+    .img9 {
         height: 500px;
         grid-column: 3/4;
         grid-row: 3/5;
     }
-    .modeloImg10 {
+    .img10 {
         height: 250px;
         grid-column: 1/2;
         grid-row: 5/6;
     }
-    .modeloImg11 {
+    .img11 {
         height: 250px;
         grid-column: 2/4;
         grid-row: 5/6;
     }
-    .modeloImg12 {
-        height: 500px;
-        grid-column: 4/5;
-        grid-row: 4/6;
-    }
-    .fotografoImg1 {
-        height: 500px;
-        grid-column: 1/2;
-        grid-row: 1/3;
-    }
-    .fotografoImg2 {
-        height: 250px;
-        grid-column: 2/4;
-        grid-row: 1/2;
-    }
-    .fotografoImg3 {
-        height: 250px;
-        grid-column: 4/5;
-        grid-row: 1/2;
-    }
-    .fotografoImg4 {
-        height: 250px;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    .fotografoImg5 {
-        height: 500px;
-        grid-column: 2/3;
-        grid-row: 2/4;
-    }
-    .fotografoImg6 {
-        height: 250px;
-        grid-column: 3/5;
-        grid-row: 2/3;
-    }
-    .fotografoImg7 {
-        height: 250px;
-        grid-column: 4/5;
-        grid-row: 3/4;
-    }
-    .fotografoImg8 {
-        height: 250px;
-        grid-column: 1/3;
-        grid-row: 4/5;
-    }
-    .fotografoImg9 {
-        height: 500px;
-        grid-column: 3/4;
-        grid-row: 3/5;
-    }
-    .fotografoImg10 {
-        height: 250px;
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-    .fotografoImg11 {
-        height: 250px;
-        grid-column: 2/4;
-        grid-row: 5/6;
-    }
-    .fotografoImg12 {
+    .img12 {
         height: 500px;
         grid-column: 4/5;
         grid-row: 4/6;
