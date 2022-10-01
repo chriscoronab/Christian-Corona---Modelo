@@ -128,12 +128,24 @@ a {
     text-align: center;
     line-height: 2em;
     color: white;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
+}
+#email {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#email p {
+    padding: 0 1em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     #paginaIndex {
+        background-image: url(../assets/img/index\ mobile.jpg);
         margin: 0.5em;
+        height: 915px;
     }
     #logo {
         width: 50px;
@@ -147,10 +159,11 @@ a {
     }
     #index h1 {
         font-size: 200%;
-        padding-top: 9em;
+        padding-top: 18em;
     }
     #index h2 {
         font-size: 100%;
+        padding-bottom: 3em;
     }
     #rrss svg {
         margin: 1.5em 0;
@@ -241,9 +254,10 @@ a {
     }
     #paginaContacto {
         background-image: url(../assets/img/contacto\ mobile.jpg);
+        height: 915px;
     }
-    #formulario {
-        font-size: 1em;
+    #email {
+        margin: 4em 0;
     }
 }
 
@@ -422,6 +436,10 @@ a {
     }
     #formulario {
         font-size: 1.5em;
+    }
+    #email {
+        font-size: 1.5em;
+        margin-bottom: 2em;
     }
 }
 
@@ -615,7 +633,7 @@ a {
     #paginaContacto {
         background-image: url(../assets/img/IMG_9744.jpg);
     }
-    #formulario {
-        font-size: 1em;
+    #email {
+        margin-bottom: 1em;
     }
 }
