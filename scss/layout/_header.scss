@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    margin: 0em;
+    text-align: right;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+    nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    li:hover {
+        transform: scale(1.2, 1.2);
+    }
+    a {
+        color: #337386;
+    }
+}
+a {
+    text-decoration: none;
+}

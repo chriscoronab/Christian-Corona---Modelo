@@ -1,0 +1,26 @@
+.paginas {
+    background-color: black;
+}
+.tituloPaginas {
+    text-align: center;
+    color: white;
+}
+
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-about";
+@import "./layout/main-portfolio";
+@import "./layout/main-proyectos";
+@import "./layout/main-contact";
+@import "./layout/media-mobile";
+@import "./layout/media-tablet";
+@import "./layout/media-desktop";
+
+
+
+
+
+

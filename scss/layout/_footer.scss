@@ -1,0 +1,12 @@
+#rrss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    svg:hover {
+        transform: scale(1.2, 1.2);
+    }
+}
+#copyright {
+    color: white;
+    text-align: center;
+}

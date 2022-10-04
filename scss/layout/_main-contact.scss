@@ -1,0 +1,20 @@
+#paginaContacto {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#formulario {
+    text-align: center;
+    line-height: 2em;
+    color: white;
+    margin-bottom: 3em;
+}
+#email {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    p {
+        padding: 0 1em;
+    }
+}
