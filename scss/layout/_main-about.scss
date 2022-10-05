@@ -2,8 +2,7 @@
     background-color: black;
 }
 .tituloPaginas {
-    text-align: center;
-    color: white;
+    @extend .texto;
 }
 #about {
     background-repeat: no-repeat;
@@ -11,17 +10,9 @@
     color: white;
     overflow: hidden;
 }
-#bio {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: left;
-}
 .parrafo {
     background-color: white;
     color: #121212;
-}
-#trans {
     display: flex;
     justify-content: space-evenly;
     align-items: center;

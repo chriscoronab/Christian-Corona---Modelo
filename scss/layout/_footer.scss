@@ -7,6 +7,5 @@
     }
 }
 #copyright {
-    color: white;
-    text-align: center;
+    @extend .texto;
 }

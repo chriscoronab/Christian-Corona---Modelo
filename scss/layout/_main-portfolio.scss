@@ -1,8 +1,7 @@
 .portfolio {
     padding-bottom: 2em;
     h2 {
-        color: white;
-        text-align: center;
+        @extend .texto;
         padding-bottom: 1em;
     }
 }

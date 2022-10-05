@@ -1,10 +1,9 @@
 header {
     width: 100%;
-    margin: 0em;
     text-align: right;
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: $backgroundSecundario;
     z-index: 10;
     nav {
     display: flex;

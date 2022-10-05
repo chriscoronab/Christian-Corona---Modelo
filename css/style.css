@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
-.paginas {
-  background-color: black; }
-
-.tituloPaginas {
-  text-align: center;
-  color: white; }
-
 .fuenteRegular {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -18,7 +11,6 @@
 
 header {
   width: 100%;
-  margin: 0em;
   text-align: right;
   position: sticky;
   top: 0;
@@ -49,26 +41,18 @@ a {
   #rrss svg:hover {
     transform: scale(1.2, 1.2); }
 
-#copyright {
-  color: white;
-  text-align: center; }
-
 #paginaIndex {
   background-image: url("../assets/img/43F5AE91-DF97-47EA-86D6-CF9F307F2895.jpg");
   background-repeat: no-repeat;
   overflow: visible;
   background-size: cover; }
 
-#index {
+.texto, #copyright, .tituloPaginas, .portfolio h2, #formulario {
   color: white;
   text-align: center; }
 
 .paginas {
   background-color: black; }
-
-.tituloPaginas {
-  text-align: center;
-  color: white; }
 
 #about {
   background-repeat: no-repeat;
@@ -76,17 +60,9 @@ a {
   color: white;
   overflow: hidden; }
 
-#bio {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: left; }
-
 .parrafo {
   background-color: white;
-  color: #121212; }
-
-#trans {
+  color: #121212;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -98,8 +74,6 @@ a {
 .portfolio {
   padding-bottom: 2em; }
   .portfolio h2 {
-    color: white;
-    text-align: center;
     padding-bottom: 1em; }
 
 .galeria {
@@ -129,9 +103,7 @@ a {
   background-size: cover; }
 
 #formulario {
-  text-align: center;
   line-height: 2em;
-  color: white;
   margin-bottom: 3em; }
 
 #email {

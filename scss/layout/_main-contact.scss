@@ -3,9 +3,8 @@
     background-size: cover;
 }
 #formulario {
-    text-align: center;
+    @extend .texto;
     line-height: 2em;
-    color: white;
     margin-bottom: 3em;
 }
 #email {
