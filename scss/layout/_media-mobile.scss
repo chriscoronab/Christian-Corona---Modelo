@@ -88,30 +88,25 @@
     }
     .publicidad1 {
         margin: 2em 0;
-        grid-column: 1/2;
-        grid-row: 2/3;
+        @include grid (1/2, 2/3);
     }
     #elReino {
-        grid-column: 1/2;
-        grid-row: 1/2;
+        @include grid (1/2, 1/2);
     }
     #sprite {
-        grid-column: 1/2;
-        grid-row: 3/4;
+        @include grid (1/2, 3/4);
     }
     #spriteVideo {
         width: 320px;
         margin: 1em;
-        grid-column: 1/2;
-        grid-row: 5/6;
+        @include grid (1/2, 5/6);
         iframe {
             width: 115%;
         }
     }
     .publicidad2 {
         margin: 2em 0;
-        grid-column: 1/2;
-        grid-row: 4/5;
+        @include grid (1/2, 4/5);
     }
     #paginaContacto {
         background-image: url(../assets/img/contacto-mobile.jpg);

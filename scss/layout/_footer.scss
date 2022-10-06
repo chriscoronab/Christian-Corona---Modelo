@@ -1,7 +1,5 @@
 #rrss {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    @include flex (row, space-evenly, none);
     svg:hover {
         transform: scale(1.2, 1.2);
     }

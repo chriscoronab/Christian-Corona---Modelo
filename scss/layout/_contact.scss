@@ -9,10 +9,7 @@
 }
 #email {
     color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include flex (row, center, center);
     p {
         padding: 0 1em;
     }

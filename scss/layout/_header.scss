@@ -6,15 +6,11 @@ header {
     background-color: $backgroundSecundario;
     z-index: 10;
     nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+        @include flex (row, space-between, none)
     }
 }
 #menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flex (row, none, center);
     list-style-type: none;
     li:hover {
         transform: scale(1.2, 1.2);
