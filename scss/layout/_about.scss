@@ -5,14 +5,12 @@
     @extend .texto;
 }
 #about {
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
-    overflow: hidden;
+    @include background (no-repeat, 100%, hidden);
+    color: $colorFuentePrincipal;
 }
 .parrafo {
     background-color: $backgroundSecundario;
-    color: #121212;
+    color: $colorFuenteSecundaria;
     @include flex (none, space-evenly, center);
     text-align: left;
 }

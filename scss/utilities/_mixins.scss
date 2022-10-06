@@ -4,7 +4,16 @@
     justify-content: $justify;
     align-items: $align;
 }
-@mixin grid ($column, $row) {
-    grid-column: $column;
-    grid-row: $row;
+@mixin size ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin position ($position, $top) {
+    position: $position;
+    top: $top;
+}
+@mixin background ($repeat, $size, $overflow) {
+    background-repeat: $repeat;
+    background-size: $size; 
+    overflow: $overflow;
 }

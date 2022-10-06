@@ -1,6 +1,5 @@
 #paginaContacto {
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include background (no-repeat, cover, none);
 }
 #formulario {
     @extend .texto;
@@ -8,7 +7,7 @@
     margin-bottom: 3em;
 }
 #email {
-    color: white;
+    color: $colorFuentePrincipal;
     @include flex (row, center, center);
     p {
         padding: 0 1em;
