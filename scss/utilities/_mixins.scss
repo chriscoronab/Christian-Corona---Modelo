@@ -8,12 +8,20 @@
     width: $width;
     height: $height;
 }
-@mixin position ($position, $top) {
-    position: $position;
+@mixin sticky ($top) {
+    position: sticky;
     top: $top;
 }
 @mixin background ($repeat, $size, $overflow) {
     background-repeat: $repeat;
     background-size: $size; 
     overflow: $overflow;
+}
+@mixin grid ($columns, $rows) {
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+}
+@mixin parrafo ($fontSize, $lineHeight) {
+    font-size: $fontSize;
+    line-height: $lineHeight;
 }

@@ -170,7 +170,8 @@ a {
     width: 85%;
     padding: 0.2em; }
   .galeria {
-    grid-template-columns: 100%; }
+    grid-template-columns: 100%;
+    grid-template-rows: none; }
     .galeria img {
       width: 100%;
       grid-column: 1/2; }
@@ -311,7 +312,7 @@ a {
     grid-column: 2/3;
     grid-row: 8/10; }
   .proyectos {
-    width: 400px;
+    width: 100%;
     margin-bottom: 2em;
     padding-bottom: 1em; }
   .proyectos-grid {

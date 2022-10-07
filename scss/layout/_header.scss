@@ -1,7 +1,7 @@
 header {
     width: 100%;
     text-align: right;
-    @include position (sticky, 0);
+    @include sticky (0);
     background-color: $backgroundSecundario;
     z-index: 10;
     nav {

@@ -32,13 +32,11 @@
         padding: 1em 0 0 3em;
         margin: 0 auto 2em auto;
         h2 {
-            font-size: 2em;
-            line-height: 2.5em;
+            @include parrafo (2em, 2.5em);
             padding-bottom: 1em;
         }
         h3 {
-        font-size: 1.5em;
-        line-height: 1.5em;
+            @include parrafo (1.5em, 1.5em);
         }
     }
     .parrafo {
@@ -46,8 +44,7 @@
         width: 85%;
         padding: 0.5em;
         margin: 0 auto 2em auto;
-        font-size: 1em;
-        line-height: 2em;
+        @include parrafo (1em, 2em);
     }
     #bio {
         p {
@@ -71,8 +68,7 @@
     }
     .galeria {
         overflow-x: hidden;
-        grid-template-columns: repeat (4, 25%);
-        grid-template-rows: repeat (5, 20%);
+        @include grid (repeat (4, 25%), repeat (5, 20%));
         img {
             width: 100%;
         }
@@ -144,14 +140,13 @@
     }
     .proyectos-grid {
         margin: 1em 0 2em 0;
-        grid-template-columns: 20% 60% 20%;
-        grid-template-rows: auto;
+        @include grid (20% 60% 20%, auto);
         img {
         width: 100%;
         }
     }
     .publicidad1 {
-        @include position (sticky, 13em);
+        @include sticky (13em);
         grid-column: 1/2;
         grid-row: 1/4;
     }
@@ -177,7 +172,7 @@
         grid-row: 3/4;
     }
     .publicidad2 {
-        @include position (sticky, 13em);
+        @include sticky (13em);
         grid-column: 3/4;
         grid-row: 1/4;
     }

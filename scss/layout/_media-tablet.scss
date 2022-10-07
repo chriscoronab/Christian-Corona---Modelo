@@ -34,13 +34,11 @@
     #about {
         background-image: url(../assets/img/about-tablet.jpg);
         h2 {
-            font-size: 2em;
-            line-height: 2em;
+            @include parrafo (2em, 2em);
             padding: 0 1.5em 8em 1.5em;
         }
         h3 {
-            font-size: 1.5em;
-            line-height: 1.5em;
+            @include parrafo (1.5em, 1.5em);
             padding: 0 1.5em;
         }
     }
@@ -48,8 +46,7 @@
         flex-direction: column;
         width: 95%;
         margin: 2em auto;
-        font-size: 1.5em;
-        line-height: 1.5em;
+        @include parrafo (1.5em, 1.5em);
         p {
         width: 95%;
         }
@@ -65,8 +62,7 @@
         padding: 0.2em;
     }
     .galeria {
-        grid-template-columns: repeat (2, 560px);
-        grid-template-rows: repeat (10, 400px);
+        @include grid (repeat (2, 560px), repeat (10, 400px));
         img {
             width: 100%;
         }
@@ -132,13 +128,12 @@
         grid-row: 8/10;
     }
     .proyectos {
-        width: $mediumImg-tablet;
+        width: 100%;
         margin-bottom: 2em;
         padding-bottom: 1em;
     }
     .proyectos-grid {
-        grid-template-columns: 70% 30%;
-        grid-template-rows: auto;
+        @include grid (70% 30%, auto);
         margin: 2em 0;
         img {
             width: 100%;
