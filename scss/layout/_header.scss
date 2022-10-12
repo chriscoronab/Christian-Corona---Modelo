@@ -5,7 +5,7 @@ header {
     background-color: $backgroundSecundario;
     z-index: 10;
     nav {
-        @include flex (row, space-between, none)
+        @include flex (row, space-between, flex-end)
     }
 }
 #menu {

@@ -20,7 +20,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: none; }
+    align-items: flex-end; }
 
 #menu {
   display: flex;
@@ -55,7 +55,11 @@ a {
   text-align: center; }
 
 .paginas {
-  background-color: black; }
+  background-color: black;
+  margin: 0.5em; }
+
+.tituloPaginas {
+  margin: 0.5em 0; }
 
 #about {
   background-repeat: no-repeat;
@@ -102,11 +106,6 @@ a {
 .proyectos-grid {
   display: grid; }
 
-#paginaContacto {
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: none; }
-
 #formulario {
   line-height: 2em;
   margin-bottom: 3em; }
@@ -116,11 +115,12 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center; }
+  align-items: flex-start;
+  margin-bottom: 1em; }
   #email p {
     padding: 0 1em; }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #paginaIndex {
     background-image: url(../assets/img/index-mobile.jpg);
     margin: 0.5em;
@@ -204,11 +204,9 @@ a {
     margin: 2em 0;
     grid-column: 1/2;
     grid-row: 4/5; }
-  #paginaContacto {
-    background-image: url(../assets/img/contacto-mobile.jpg);
-    height: 915px; }
-  #email {
-    margin: 4em 0; } }
+  #carrusel {
+    margin: 3em 0 0 1.3em;
+    width: 450px; } }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   #paginaIndex {
@@ -338,13 +336,11 @@ a {
     margin: auto 0 auto 1em;
     grid-column: 2/3;
     grid-row: 2/3; }
-  #paginaContacto {
-    background-image: url(../assets/img/contacto-tablet.jpg); }
-  #formulario {
+  #formulario, #email {
     font-size: 1.5em; }
-  #email {
-    font-size: 1.5em;
-    margin-bottom: 2em; } }
+  #carrusel {
+    margin: 3em 0 0 2em;
+    width: 950px; } }
 
 @media screen and (min-width: 1200px) {
   #menu {
@@ -491,7 +487,10 @@ a {
     top: 13em;
     grid-column: 3/4;
     grid-row: 1/4; }
-  #paginaContacto {
-    background-image: url(../assets/img/contacto-desktop.jpg); }
-  #email {
-    margin-bottom: 1em; } }
+  #formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: none;
+    align-items: center; }
+    #formulario form {
+      padding: 0 13em; } }

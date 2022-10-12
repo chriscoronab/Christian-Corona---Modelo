@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
     #paginaIndex {
         background-image: url(../assets/img/index-mobile.jpg);
         margin: 0.5em;
@@ -109,11 +109,8 @@
         grid-column: 1/2;
         grid-row: 4/5;
     }
-    #paginaContacto {
-        background-image: url(../assets/img/contacto-mobile.jpg);
-        height: 915px;
-    }
-    #email {
-        margin: 4em 0;
+    #carrusel {
+        margin: 3em 0 0 1.3em;
+        width: 450px;
     }
 }

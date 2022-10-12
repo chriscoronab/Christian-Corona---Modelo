@@ -1,8 +1,10 @@
 .paginas {
     background-color: $backgroundPrincipal;
+    margin: 0.5em;
 }
 .tituloPaginas {
     @extend .texto;
+    margin: 0.5em 0;
 }
 #about {
     @include background (no-repeat, 100%, hidden);

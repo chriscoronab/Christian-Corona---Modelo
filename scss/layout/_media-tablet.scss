@@ -161,14 +161,11 @@
         grid-column: 2/3;
         grid-row: 2/3;
     }
-    #paginaContacto {
-        background-image: url(../assets/img/contacto-tablet.jpg);
-    }
-    #formulario {
+    #formulario, #email {
         font-size: 1.5em;
     }
-    #email {
-        font-size: 1.5em;
-        margin-bottom: 2em;
+    #carrusel {
+        margin: 3em 0 0 2em;
+        width: 950px;
     }
 }

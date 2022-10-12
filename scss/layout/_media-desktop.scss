@@ -176,10 +176,10 @@
         grid-column: 3/4;
         grid-row: 1/4;
     }
-    #paginaContacto {
-        background-image: url(../assets/img/contacto-desktop.jpg);
-    }
-    #email {
-        margin-bottom: 1em;
+    #formulario {
+        @include flex (row, none, center);
+        form {
+            padding: 0 13em;
+        }
     }
 }
