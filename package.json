@@ -1,12 +1,12 @@
 {
   "name": "proyecto-desarrollo-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es un sitio web personal que permite al usuario conocerme más allá de las fotos, donde relato los highlights de mi vida y muestro mis proyectos más importantes como modelo y fotógrafo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css":"nodemon -e scss -x \"npm run build-css\""
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
