@@ -129,9 +129,9 @@ a {
     width: 50px; }
   #menu {
     padding: 0;
-    font-size: 15px; }
+    font-size: 1em; }
     #menu li {
-      padding-inline: 0.5em; }
+      padding-inline: 0.3em; }
   #index h1 {
     font-size: 200%;
     padding-top: 18em; }
